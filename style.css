@@ -89,8 +89,8 @@ body {
 }
 
 .images {
-    height: 350px;
-    width: auto;
+    max-height: 400px;
+    max-width: 100%;
 }
 
 .sub {
