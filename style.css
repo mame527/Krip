@@ -1,0 +1,462 @@
+h1,
+div {
+    font-family: "Fugaz One", sans-serif;
+    color: #5E3600;
+
+}
+
+h1 {
+    font-size: 70px;
+
+}
+
+div {
+    font-size: 25px;
+}
+
+table {
+    border: 0.5px solid black;
+    width: 600px;
+    border-spacing: 0px;
+    height: auto;
+
+    div3 {
+        height: auto;
+    }
+}
+
+td {
+    border: 0.5px solid black;
+
+    div {
+        padding: 5px;
+        font-family: "IBM Plex Sans JP", sans-serif;
+        color: black;
+        font-size: 15px;
+    }
+
+
+}
+
+th {
+    background-color: gainsboro;
+    border: 0.5px solid black;
+}
+
+tr {
+    font-family: "IBM Plex Sans JP", sans-serif;
+}
+
+header {
+    background-color: #5E3600;
+    height: auto;
+    width: auto;
+    text-align: center;
+
+
+    a {
+        color: white;
+        font-size: 25px;
+        font-family: "Fugaz One", sans-serif;
+        padding: 15px;
+
+    }
+
+    a:hover {
+        color: gainsboro;
+    }
+}
+
+
+img {
+    margin-left: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    height: auto;
+    width: auto;
+
+}
+
+.img {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.images {
+    height: 350px;
+    width: auto;
+}
+
+.sub {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tab {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab-label {
+    color: white;
+    background: lightgrey;
+    white-space: nowrap;
+    order: -1;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+
+    a {
+        color: white;
+    }
+}
+
+.Tab-content {
+    width: 100px;
+    display: none;
+
+}
+
+.TabSwitch:checked+.tab-label {
+    background: #5E3600;
+
+}
+
+.TabSwitch:checked+.tab-label+.Tab-content {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+.TabSwitch {
+    display: none;
+}
+
+body {
+    text-align: center;
+}
+
+@media screen and (max-width: 959px) {
+
+    h1,
+    div {
+        font-family: "Fugaz One", sans-serif;
+        color: #5E3600;
+
+    }
+
+    h1 {
+        font-size: 70px;
+
+    }
+
+    div {
+        font-size: 25px;
+    }
+
+    table {
+        border: 0.5px solid black;
+        width: 300px;
+        border-spacing: 0px;
+        height: auto;
+        flex-direction: column-reverse;
+
+        div3 {
+            height: auto;
+        }
+    }
+
+    td {
+        border: 0.5px solid black;
+
+        div {
+            padding: 5px;
+            font-family: "IBM Plex Sans JP", sans-serif;
+            color: black;
+            font-size: 15px;
+        }
+
+
+    }
+
+    th {
+        background-color: gainsboro;
+        border: 0.5px solid black;
+    }
+
+    tr {
+        font-family: "IBM Plex Sans JP", sans-serif;
+    }
+
+    header {
+        background-color: #5E3600;
+        height: auto;
+        width: auto;
+
+        a {
+            color: white;
+            font-size: 25px;
+            font-family: "Fugaz One", sans-serif;
+            padding: 15px;
+
+        }
+
+        a:hover {
+            color: gainsboro;
+        }
+    }
+
+
+    img {
+        margin-left: 10px;
+    }
+
+    body {
+        height: auto;
+        width: auto;
+
+    }
+
+    .img {
+        height: auto;
+        width: auto;
+        display: grid;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+
+    }
+
+    .images {
+        max-height: 200px;
+        width: auto;
+        flex-direction: column-reverse;
+        display: grid;
+    }
+
+    .sub {
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .tab {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tab-label {
+        color: white;
+        background: lightgrey;
+        white-space: nowrap;
+        order: -1;
+        cursor: pointer;
+        text-align: center;
+        padding: 10px;
+
+        a {
+            color: white;
+        }
+
+    }
+
+    .Tab-content {
+        width: 100px;
+        display: none;
+
+    }
+
+    .TabSwitch:checked+.tab-label {
+        background: #5E3600;
+
+    }
+
+    .TabSwitch:checked+.tab-label+.Tab-content {
+        display: block;
+        width: 100px;
+        height: auto;
+    }
+
+    .TabSwitch {
+        display: none;
+    }
+}
+
+/*@media screen and (max-width:481px) {
+
+
+    h1,
+    div {
+        font-family: "Fugaz One", sans-serif;
+        color: #5E3600;
+
+    }
+
+    h1 {
+        font-size: 70px;
+
+    }
+
+    div {
+        font-size: 25px;
+    }
+
+    div2 {
+        .img {
+            height: auto;
+            width: 300px;
+            flex-wrap: nowrap;
+            display: block;
+            flex-direction: column-reverse;
+
+            table {
+                border: 0.5px solid black;
+                width: 300px;
+                border-spacing: 0px;
+                height: auto;
+                flex-direction: column-reverse;
+                table-layout: fixed;
+
+            }
+            div3 {
+                height: auto;
+            }
+
+            .images {
+                height: auto;
+                max-width: 100%;
+                flex-direction: column-reverse;
+            }
+        }
+    }
+table th table td table tr{
+    display: block;
+    width: 300px;
+    table-layout: fixed;
+}
+    td {
+        border: 0.5px solid black;
+        width: 300px;
+        display: block;
+        table-layout: fixed;
+        div {
+            padding: 0.5px;
+            font-family: "IBM Plex Sans JP", sans-serif;
+            color: black;
+            font-size: 15px;
+        }
+
+
+    }
+
+    th {
+        background-color: gainsboro;
+        border: 0.5px solid black;
+        width: 300px;
+        display: block;
+        table-layout: fixed;
+    }
+
+    tr {
+        
+        font-family: "IBM Plex Sans JP", sans-serif;
+        width: 300px;
+        display: block;
+        table-layout: fixed;
+    }
+    tbody{
+    
+        width: 300px;
+    
+    }
+    header {
+        background-color: #5E3600;
+        height: auto;
+        width: auto;
+
+        a {
+            color: white;
+            font-size: 25px;
+            font-family: "Fugaz One", sans-serif;
+            padding: 15px;
+
+        }
+
+        a:hover {
+            color: gainsboro;
+        }
+    }
+
+
+    img {
+        margin-left: 10px;
+        flex-direction: column-reverse;
+    }
+
+    body {
+        height: auto;
+        max-width: 480px;
+    }
+
+
+
+    .sub {
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .tab {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tab-label {
+        color: white;
+        background: lightgrey;
+        white-space: nowrap;
+        order: -1;
+        cursor: pointer;
+        text-align: center;
+        padding: 10px;
+
+        a {
+            color: white;
+        }
+
+    }
+
+    .Tab-content {
+        width: 100px;
+        display: none;
+
+    }
+
+    .TabSwitch:checked+.tab-label {
+        background: #5E3600;
+
+    }
+
+    .TabSwitch:checked+.tab-label+.Tab-content {
+        display: block;
+        width: 100px;
+        height: auto;
+    }
+
+    .TabSwitch {
+        display: none;
+    }
+
+}*/
